@@ -3,7 +3,7 @@
 
 {% if resolv_options %}
 {% for options in resolv_options %}
- options {{ options }} 
+options {{ options }} 
 {% endfor %}
 {% endif %}
 
@@ -12,7 +12,7 @@ domain {{ resolv_dns_domain }}
 {% endif %}
 
 {% if resolv_searchpath %}
-search  {% for searchpath in resolv_searchpath %} {{ searchpath }} {% endfor %}
+search {% for searchpath in resolv_searchpath %}{{ searchpath }}{% endfor %}
 {% endif %}
 
 {% for dns_server in resolv_dns_server %}
