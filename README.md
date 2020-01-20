@@ -1,4 +1,4 @@
-Role Name
+ansible_resolv_conf
 =========
 
 Ansible role te define the content of the /etc/resolv.conf file
